@@ -6,7 +6,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/Nishanthmegnath/gfe.git'
             }
         }
-         stage('Maven unit test'){
+         stage('UNIT Testing'){
             steps{
                 sh 'mvn test'
             }
